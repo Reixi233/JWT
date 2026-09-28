@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>JWT Nimbus - Đăng nhập</title><link rel="stylesheet" href="/style.css"><script src="/mainjs.js" defer></script></head>
+<body><main><h1>JWT với Nimbus</h1><p>Spring Boot 3 · Spring Security 6 · HS256</p>
+<h2>Đăng nhập</h2><form id="login-form">
+<label>Email<input name="email" type="email" maxlength="100" autocomplete="username" required></label>
+<label>Mật khẩu<input name="password" type="password" autocomplete="current-password" required></label>
+<button>Đăng nhập</button></form>
+<h2>Đăng ký</h2><form id="signup-form">
+<label>Họ tên<input name="fullName" maxlength="50" autocomplete="name" required></label>
+<label>Email<input name="email" type="email" maxlength="100" autocomplete="email" required></label>
+<label>Mật khẩu (ít nhất 8 ký tự)<input name="password" type="password" minlength="8" autocomplete="new-password" required></label>
+<button>Tạo tài khoản</button></form>
+<p id="message" role="status"></p></main></body></html>

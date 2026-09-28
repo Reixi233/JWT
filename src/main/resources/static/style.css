@@ -1,0 +1,8 @@
+body { font-family: system-ui, sans-serif; background: #edf2f7; color: #172b4d; margin: 0; }
+main { max-width: 680px; margin: 32px auto; padding: 24px; background: white; border-radius: 12px; }
+label { display: block; margin: 12px 0; }
+input { display: block; box-sizing: border-box; width: 100%; padding: 10px; margin-top: 4px; }
+button { background: #175cd3; color: white; border: 0; padding: 12px 18px; border-radius: 6px; cursor: pointer; margin: 4px 4px 4px 0; }
+button:disabled { opacity: .6; }
+pre { overflow-wrap: anywhere; white-space: pre-wrap; background: #f2f4f7; padding: 12px; }
+#message { color: #9c3310; }

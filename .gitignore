@@ -1,0 +1,6 @@
+/target/
+/.lecture/
+/.idea/
+*.iml
+.env
+*.log
